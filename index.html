@@ -19,10 +19,22 @@
                 <div class="hide11">Меню</div>
             </div>
             <div class = "eng">ENG</div>
-            <div class = "eye">
+            <div id="changeStylesheet" class = "eye">
                 <img  src="SVGs/eye.svg"> 
                 <div>Версия для слабовидящих</div>
             </div>
+        </div>
+        <div class="settings-panel" id="settingsPanel">
+            <div id="increaseFontSize">Увеличить шрифт</div>
+            <div id="decreaseFontSize">Уменьшить шрифт</div> 
+                  
+            <div><label for="theme-switch">Тема:</label>
+                <select id="theme-switch">
+                    <option value="light-mode">Светлая</option>
+                    <option value="dark-mode">Темная</option>
+                    <option value="blue-mode">Синяя</option>
+                </select>
+            </div>            
         </div>
         <div class = "face">    
             <div class="base">
@@ -51,18 +63,20 @@
                             </div>
                         </div>
                     </div>
-                    <div class="light">
+                    <div class="light">                        
                         <div class="highLine">
                             <div class="blueText">
                                     <img src="SVGs/sound.svg">
                                     <div>Северное сияние</div>
                                 </div>
-                                <div class="blueText">15сен.</div>
+                                <div class="blueText">15сен.</div>                                
                         </div>
                         <div class="lowLine">
                             <div class="celsius">7 уровень</div>
                             <div class="blueText">из 10</div>
                         </div>
+                        <img class="arrowLeft" src="SVGs/arrow-left.svg">
+                        <img class="arrowRight" src="SVGs/arrow-right.svg">
                     </div>
                     <div class="info">
                         <div class="greenText">Обратите внимание!</div>
@@ -379,7 +393,8 @@
             <div class="pushMe toInsta">Перейти в Instagram</div>
             <img class="ilustration2"  src="SVGs/Illustration line (1).svg">
         </div>        
-        
+        <img class="arrowLeftSlider3" src="SVGs/arrow-left.svg">
+        <img class="arrowRightSlider3" src="SVGs/arrow-right.svg">
         <div class = "slider3">
             <div>
                 <img class = "itempict" src = "images/forest.png">                
@@ -430,6 +445,6 @@
             </div>
         </div>     
     </footer>
-    
+    <script src="script.js"></script>
 </body>
 </html>
