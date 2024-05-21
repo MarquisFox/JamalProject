@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Простой калькулятор</title>
+         
+</head>
+<body>
+  <button onclick="location.href='index.html'">обратно</button>
+    <h1>Введите ваш знак зодиака</h1>
+    <input type="text" id="zodiac-sign" placeholder="Введите знак зодиака">
+    <button onclick="greetByZodiac()">Поприветствовать</button>
+    <h1>Введите три числа</h1>
+    <input type="number" id="number1" placeholder="Число 1">
+    <input type="number" id="number2" placeholder="Число 2">
+    <input type="number" id="number3" placeholder="Число 3">
+    <button onclick="sortNumbers()">Сортировать</button>
+    <p id="result"></p>
+    <h1>Введите свое имя</h1>
+    <input type="text" id="user-name" placeholder="Введите имя">
+    <div id="greeting-button">Нажмите, чтобы поприветствовать!</div>    
+    <h1>Простой Калькулятор</h1>
+    <form id="calculator">
+      <input type="number" id="num1" placeholder="Число 1">
+      <input type="number" id="num2" placeholder="Число 2">
+      <br><br>
+      <button type="button" onclick="calculate('+')">+</button>
+      <button type="button" onclick="calculate('-')">-</button>
+      <button type="button" onclick="calculate('*')">*</button>
+      <button type="button" onclick="calculate('/')">/</button>
+      <br><br>
+      <p id="result1">Результат:</p>
+    </form>
+    
+    <script src="Tasks.js"></script>
+</body>
+</html>

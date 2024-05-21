@@ -41,17 +41,3 @@ decreaseFontSizeButton.addEventListener('click', () => {
   });
 });
 
-
-
-    const themeSwitch = document.getElementById('theme-switch');   
-
-    themeSwitch.addEventListener('change', () => {
-      const selectedTheme = themeSwitch.value;
-      body.classList.remove('light-mode', 'dark-mode', 'blue-mode'); 
-      body.classList.add(selectedTheme);
-    });
-
-    const fontSizeSwitch = document.getElementById('font-size-switch');
-    const textContainer = document.getElementById('text-container');
-
-   
